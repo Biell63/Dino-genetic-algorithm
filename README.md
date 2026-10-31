@@ -30,9 +30,6 @@ em paralaxe com a estrada na velocidade do chão, e os cactos dão lugar aos **i
 andam em direção ao dino (por isso chegam mais rápido que a pista). A rede neural, o placar e o gráfico trocam de cores
 para continuar legíveis.
 
-**Destaque do líder** — o dino mantém a cor original do jogo (cinza de dia, claro à noite). O líder (o campeão, ou o
-primeiro vivo se ele morrer) é desenhado opaco e por cima; os demais ficam translúcidos, então nunca somem na multidão.
-
 **Sem limite de tempo** — cada geração só termina quando **todos** os dinos morrem. Um dino bom joga para sempre; o jogo
 nunca é reiniciado por ter atingido uma pontuação.
 
