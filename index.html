@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <!--
+      Política de segurança de conteúdo: só scripts, estilos e imagens do próprio
+      site; nenhuma conexão externa, nenhum <form>, nenhum recurso embutido.
+    -->
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'none'; script-src 'self'; style-src 'self'; img-src 'self'; base-uri 'none'; form-action 'none'"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Dino Genetic Algorithm</title>
+    <link rel="stylesheet" href="styles/main.css" />
+  </head>
+  <body>
+    <main>
+      <h1>Dino GA <small>Algoritmo Genético</small></h1>
+      <canvas
+        id="game"
+        width="1050"
+        height="560"
+        aria-label="Simulação de vários dinossauros aprendendo a jogar"
+      ></canvas>
+      <div id="controls" class="controls"></div>
+      <p id="status" role="status"></p>
+    </main>
+    <script src="src/app/environmentCheck.js"></script>
+    <script type="module" src="src/main.js"></script>
+  </body>
+</html>
