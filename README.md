@@ -159,4 +159,4 @@ a mesma tarefa levou **1196 ms antes e 850 ms depois** (mediana). Os resultados 
 ## Créditos e licença
 
 Código sob licença [MIT](LICENSE). Os sprites do dino e as constantes de física derivam do jogo do Chromium
-(licença BSD) — veja [`THIRD_PARTY_NOTICES.md`](THIRD_PARTY_NOTICES.md), que também registra a origem do sprite do meteoro.
+(licença BSD).
